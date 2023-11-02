@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:ital@1&family=Playpen+Sans&family=Roboto+Mono:ital,wght@1,500&family=Square+Peg&display=swap');
+
+body {
+    background-color: #3d4040;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2vw;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+#clockContainer {
+    margin: auto;
+    border: 2px solid red;
+    height: 35vw;
+    width: 40vw;
+    background: url(clock1.jpg) no-repeat;
+    background-size: 100%;
+    position: relative;
+    border-radius: 10%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+#hour,
+#minute,
+#second {
+    position: absolute;
+    background: white;
+    border-radius: 10px;
+    transform-origin: bottom;
+    left: 42%;
+    bottom: 50%;
+    transform: translateX(-50%);
+    opacity: 0.8;
+}
+
+#hour {
+    width: 0.8%;
+    height: 19%;
+}
+
+#minute {
+    width: 0.6%;
+    height: 22%;
+}
+
+#second {
+    width: 0.4%;
+    height: 25%;
+}
