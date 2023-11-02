@@ -2,6 +2,8 @@
 
 body {
     background-color: #3d4040;
+    margin: 0;
+    padding: 0;
 }
 
 .heading {
@@ -51,4 +53,17 @@ body {
 #second {
     width: 0.4%;
     height: 25%;
+}
+
+@media screen and (max-width: 800px) {
+    #clockContainer {
+        height: 79vw;
+        width: 90vw;
+    }
+
+    .heading {
+        font-size: 8vw;
+    }
+
+    .container {}
 }
